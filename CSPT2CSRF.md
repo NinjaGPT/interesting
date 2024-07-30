@@ -2,6 +2,7 @@
 ### CSRF is dead, long live CSRF
 #### Author: Maxence Schmitt
 #### Translator: Chris Z
+#### Original: https://www.doyensec.com/resources/Doyensec_CSPT2CSRF_Whitepaper.pdf
 ---
 ***第1页***
 
@@ -235,7 +236,10 @@ CSPT2CSRF 与标准 CSRF 之间存在一些区别：
 ➧ Mattermost 中带有 POST sink 的标准 CSPT2CSRF。
 ➧ Mattermost 中带有 GET sink 的更复杂的 CSPT2CSRF 利用。
 ```
+
 https://www.rocket.chat/
+
+
 https://mattermost.com/
 
 
