@@ -20,7 +20,7 @@
 目录：
 Abstract (概念)                 -- 03页
 Introduction (介绍)             -- 04页
-Results (结果)                  -- 09页
+Results (危害)                  -- 09页
 Practical Outcome (实际成果)     -- 13页
 Recommendations (修复建议)       -- 28页
 Burp Suite Extension (Burp扩展) -- 32页
@@ -133,7 +133,7 @@ sink是一个可到达的端点，具有相同的限制条件。它将定义攻�
 ---
 ***第9页***
 
-***RESULTS (结果)***
+***RESULTS (危害)***
 
 ---
 ***第10页***
