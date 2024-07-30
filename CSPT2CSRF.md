@@ -1,4 +1,8 @@
 # Exploiting Client-Side Path Traversal (客户端路径遍历漏洞利用)
+---
+***第1页***
+
+
 ### CSRF is dead, long live CSRF (CSRF已死，CSRF万岁)
 
 #### 作者: Maxence Schmitt
@@ -7,19 +11,23 @@
 
 ---
 ***第2页***
+
 ```
 目录：
 Abstract (概念)                 -- 03页
 Introduction (介绍)             -- 04页
 Results (结果)                  -- 09页
 Practical Outcome (实际成果)     -- 13页
-Recommendations (一些建议)       -- 28页
-Burp Suite Extension (Burp扩展) -- 32页
+Recommendations (修复建议)       -- 28页
+Burp Suite Extension (Burp Suite扩展) -- 32页
 Conclusion (总结)               -- 35页
 References (参考)               -- 36页
 ```
 ---
 ***第3页***
+
+
+***ABSTRACT (概念)***
 
 为了为用户提供更安全的浏览体验，IETF 提议的“逐步改进的 Cookies”引发了一些重要的变化，以解决跨站请求伪造（CSRF）和其他客户端问题。不久之后，Chrome 和其他主要浏览器实施了推荐的更改并引入了 SameSite 属性。安全研究人员可能会认为实施了 CSRF 令牌和这些保护措施的应用程序可以免受 CSRF 攻击。
 在本文中，我将介绍如何利用客户端路径遍历（CSPT）来执行 CSRF（CSPT2CSRF），即使已经实施了所有行业最佳实践的 CSRF 保护措施。这项工作是对 CSPT 和 CSRF 进行了广泛研究的结果；我们将讨论理论和实际方面的内容，并介绍一些影响主要网络产品的漏洞。
@@ -28,7 +36,7 @@ References (参考)               -- 36页
 ---
 ***第4页***
 
-***INTRODUCTION***
+***INTRODUCTION (介绍)***
 
 ---
 
@@ -121,7 +129,7 @@ sink是一个可到达的端点，具有相同的限制条件。它将定义攻�
 ---
 ***第9页***
 
-***RESULTS***
+***RESULTS (结果)***
 
 ---
 ***第10页***
@@ -200,7 +208,7 @@ CSPT2CSRF 与标准 CSRF 之间存在一些区别：
 ---
 ***第13页***
 
-***PRACTICAL OUTCOME***
+***PRACTICAL OUTCOME (实际成果)***
 
 ---
 ***第14页***
@@ -631,7 +639,7 @@ https://api.mattermost.com/#tag/plugins/operation/InstallPluginFromUrl
 ---
 ***第28页***
 
-***RECOMMENDATIONS***
+***RECOMMENDATIONS (修复建议)***
 
 ---
 ***第29页***
@@ -688,7 +696,7 @@ reportProgress: reportProgress
 ---
 ***第31页***
 
-***Burp Suite Extension***
+***Burp Suite Extension (Burp Suite扩展)***
 
 ---
 ***第32页***
@@ -748,7 +756,7 @@ Semgrep 规则也可以成为促进此分析的好工具。这些规则必须跨
 ---
 ***第34页***
 
-***CONCLUSION***
+***CONCLUSION (结论)***
 
 ---
 ***第35页***
