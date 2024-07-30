@@ -1,13 +1,16 @@
-# Exploiting Client-Side Path Traversal (客户端路径遍历漏洞利用)
+# Exploiting Client-Side Path Traversal
+### CSRF is dead, long live CSRF
+#### Author: Maxence Schmitt
+#### Translator: Chris Z
 ---
 ***第1页***
 
-
-### CSRF is dead, long live CSRF (CSRF已死，CSRF万岁)
+# 客户端路径遍历漏洞利用
+### CSRF已死，CSRF万岁
 
 #### 作者: Maxence Schmitt
 #### 翻译：Chris Z
-#### 链接: https://www.doyensec.com/resources/Doyensec_CSPT2CSRF_Whitepaper.pdf
+#### 原文: https://www.doyensec.com/resources/Doyensec_CSPT2CSRF_Whitepaper.pdf
 
 ---
 ***第2页***
@@ -19,7 +22,7 @@ Introduction (介绍)             -- 04页
 Results (结果)                  -- 09页
 Practical Outcome (实际成果)     -- 13页
 Recommendations (修复建议)       -- 28页
-Burp Suite Extension (Burp Suite扩展) -- 32页
+Burp Suite Extension (Burp扩展) -- 32页
 Conclusion (总结)               -- 35页
 References (参考)               -- 36页
 ```
@@ -384,7 +387,7 @@ telemetryRunAction) {
 从源代码中可以识别出一个潜在的 CSPT2CSRF。
 
 
-要利用此漏洞，必须在 telem_run_id 参数中设置有效payload。使用这个source，攻击者能够在选定的端点上触发 CSPT2CSRF。
+要利用此漏洞，必须在 telem_run_id 参数中设置payload。使用这个source，攻击者能够在选定的端点上触发 CSPT2CSRF。
 
 ### Sink 描述
 
