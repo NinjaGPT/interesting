@@ -1,0 +1,26 @@
+# OS 2023
+
+# WE
+```
+magnet:?xt=urn:btih:3b34bec6c526ea27e951688f439abda68b6e006e
+```
+
+# MR
+```
+magnet:?xt=urn:btih:C2AF85DC8DC28D7A1C5960CEC6EA1A325CE2DD2E
+```
+
+# EP
+```
+magnet:?xt=urn:btih:B33836C1274DA04FF75F8B9901A4EFCF1BCE987E
+```
+
+# ED
+```
+magnet:?xt=urn:btih:9EB0E95134C78CB67BB8B553170E02F93B899BC0
+```
+
+# CP
+```
+magnet:?xt=urn:btih:E7D78249925F86F819F9725035243675EE2B5643
+```
